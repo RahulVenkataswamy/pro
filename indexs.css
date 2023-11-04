@@ -1,0 +1,366 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#one,#div1{
+    margin-left: 100px;
+    
+   
+}
+#two{
+     padding-left: 20px;
+
+    
+}
+#three{
+    padding-left: 900px;
+
+}
+.for{
+    padding-left: 30px;
+}
+#one1{
+    margin-left: 70px;
+
+
+}
+#one1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}  
+#div1{
+
+    padding-top: 50px;
+    
+}
+.div2{
+    margin-left: 100px;
+   
+}
+.div2:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+
+#div22 {
+    margin-left: 70px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+
+#div22:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+#div11{
+    margin-top: 10px;
+    
+    width: 100%;
+    height: 500px;
+    border: 2px solid rgb(24, 87, 116);
+    background-color:  rgb(24, 87, 116);
+}          
+#div11 p{  
+    margin-top: 80px;
+    margin-left: 200px;
+    color:rgb(111, 234, 111);
+}
+#div11 h1{
+ padding-top: 20px;
+    margin-left: 200px;
+    color: aliceblue;
+}
+#div11 pre{
+    padding-top: 60px;
+    margin-left: 150px;
+    color: aliceblue;
+}
+#div11 video{
+    margin-top: -260px;
+    margin-left: 50%;
+}
+
+
+
+#div222{
+margin-top: 100px;
+}
+#div222 pre{
+padding-top: 30px;
+font-size: 25px;
+}
+
+
+@keyframes act {
+   0%{background-color: rgb(226, 196, 156);}
+   20%{background-color: rgb(228, 176, 107); color:black;}
+   40%{background-color: rgb(213, 139, 86); color: darkmagenta;}
+   60%{background-color: rgb(128, 206, 220); color: rgb(220, 113, 113);}
+   80%{background-color: rgb(213, 218, 115); color: rgb(6, 96, 151);}
+   100%{background-color: rgb(242, 140, 7); color: white;}
+             
+}
+aside div video{
+    margin-top: 20px;
+    margin-left: 400px;
+  
+}
+#div123{
+    border: 1px solid cornsilk;
+    background-color: cornsilk;
+    margin-top: 50px;
+}
+
+.s1{
+    
+  text-align: center;
+}
+
+#div123 h1{
+
+    font-size: 30px;
+}
+#div123 pre{
+    margin-top: 50px;
+    font-size: 20px;
+}
+ span{
+    color: darkgoldenrod;  
+}
+ span:hover{
+    color: rgb(0, 0, 0);  
+}
+.cont{
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 50%;
+    height:500px;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat; 
+    animation-name: img;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+} 
+
+@keyframes img{
+     0%{background-image: url(1.jpg);}
+     10%{background-image: url(2.jpg);}
+     20%{background-image: url(3.jpg);}
+     30%{background-image: url(4.jpg);}
+     40%{background-image: url(5.jpg);}
+     50%{background-image: url(6.jpg);}
+     60%{background-image: url(7.jpg);}
+     70%{background-image: url(8.jpg);}
+     80%{background-image: url(9.jpg);}
+}
+.slid{
+   
+    margin-top: 50px;
+}
+.slid h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.slid pre{
+       padding-top: 20px;
+    text-align: center;
+}
+.slid div{
+    
+    margin-top: 20px;
+    margin-left: 45%;
+    width:250px;
+    height:90px;
+    background-image: url(11.webp);
+    background-repeat: no-repeat;
+    animation-name: img1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes img1{
+    0%{background-image: url(11.webp);}
+    10%{background-image: url(12.webp);}
+    20%{background-image: url(13.webp);}
+    30%{background-image: url(14.webp);}
+    40%{background-image: url(15.webp);}
+    50%{background-image: url(16.webp);}
+    60%{background-image: url(17.webp);}
+    70%{background-image: url(18.webp);}
+    80%{background-image: url(19.webp);}
+}
+.sy{
+    margin-top: 50px;
+    border: 1px solid rgb(3, 89, 132);
+    background-color: rgb(3, 89, 132) ;
+}
+.ce{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.sy img{
+    margin-top: 20px;
+    margin-left: 69%;
+    width: 400px;
+    height: 400px;
+}
+.sy div{
+    text-align: center;
+    margin-left: 90px;
+    margin-top: -400px;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 4px;
+    width: 50%;
+    height: auto;
+}
+.sy div pre{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.sy div ul li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer div{
+    margin-top: 30px;
+}
+.c1{
+    text-align: center;
+    margin-top: 20px;
+}
+.er1{
+    
+    border: 2px solid red;
+}
+#d222{
+    
+    margin-top: 50px;
+    margin-left: 10%;
+    border: solid 3px black;
+    border-radius: 7px;
+    width: 36%;
+}
+#d221{
+    
+    margin-top: -700px;
+    margin-left: 55%;
+    border: solid 3px black;
+    border-radius: 7px;
+    width: 36%;
+}
+#d222 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation-name: ttr;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+#d221 h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    animation-name: cha;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+#d221 p,#d222 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+@keyframes ttr {
+    0%{color: black;}
+    25%{color: rgb(187, 143, 82);}
+    50%{color: rgb(97, 198, 215);}
+    75%{color: rgb(200, 92, 157);}
+    100%{color: rgb(88, 195, 83);}
+}
+.re{
+    text-align: center;
+    margin-top: 50px;
+}
+
+marquee{
+    margin-top: 30px;
+}
+
+.car1{
+    margin-top: 50px;
+
+    background-color: rgb(175, 202, 228);
+    border-radius: 10px;
+    border:  1px solidrgb(175, 202, 228);
+    width: 400px;
+    height: 75px;
+    margin-left: 20%;
+
+}
+.dd{
+    margin-top: -200px;
+
+    background-color:rgb(175, 202, 228);
+    border-radius: 10px;
+    border:  1px solid rgb(175, 202, 228);
+    width: 400px;
+    height: 75px;
+    margin-left: 50%;
+}
+.ddd{
+    margin-top: 45px;
+
+    background-color: rgb(175, 202, 228);
+    border-radius: 10px;
+    border:  1px solid rgb(175, 202, 228);
+    width: 400px;
+    height: 75px;
+    margin-left: 50%;
+    
+}
+
+@keyframes cha{
+    0%{color: rgb(232, 168, 168);}
+    10%{color: rgb(231, 232, 158);}
+    30%{color: rgb(155, 217, 218);}
+    50%{color: rgb(193, 228, 151);}
+    70%{color: rgb(175, 158, 217);}
+    90%{color: rgb(235, 169, 207);}
+}
+footer{
+    width: 100%;
+    height: 250px;
+    border: 2px solid azure;
+    background-color: azure;
+    font-size: 20px;
+}
+  
+.unl:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+footer table{
+    margin-top: 50px;
+   margin-left: 200px;
+}
+.ht{
+    animation-name: cha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ul{
+    margin-left: 100px;
+}
+.dddd{
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 20px;
+}

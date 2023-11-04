@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    box-sizing: border-box;
+}
+
+#one,
+#div1 {
+    margin-left: 100px;
+
+
+}
+
+#two {
+    padding-left: 20px;
+
+
+}
+
+#three {
+    padding-left: 900px;
+
+}
+
+.for {
+    padding-left: 30px;
+}
+
+#one1 {
+    margin-left: 70px;
+ 
+    
+
+}
+#one1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+} 
+span{
+    color: darkgoldenrod;  
+}
+ span:hover{
+    color: rgb(0, 0, 0);  
+} 
+#div1 {
+
+    padding-top: 50px;
+
+}
+
+.div2 {
+    margin-left: 100px;
+
+}
+
+.div2:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+#div22 {
+    margin-left: 70px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+
+#div22:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+u{
+    text-align: center;
+}
+table tr{
+    padding: 10px;
+}
+
+@keyframes act {
+    0% {
+        background-color: rgb(226, 196, 156);
+    }
+
+    20% {
+        background-color: rgb(228, 176, 107);
+        color: black;
+    }
+
+    40% {
+        background-color: rgb(213, 139, 86);
+        color: darkmagenta;
+    }
+
+    60% {
+        background-color: rgb(128, 206, 220);
+        color: rgb(220, 113, 113);
+    }
+
+    80% {
+        background-color: rgb(213, 218, 115);
+        color: rgb(6, 96, 151);
+    }
+
+    100% {
+        background-color: rgb(242, 140, 7);
+        color: white;
+    }
+    
+}
+.hl{
+    text-align: center;
+    padding: 10px;
+    border: solid 2px white ;
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+@keyframes cha{
+    0%{color: rgb(232, 168, 168);}
+    10%{color: rgb(231, 232, 158);}
+    30%{color: rgb(155, 217, 218);}
+    50%{color: rgb(193, 228, 151);}
+    70%{color: rgb(175, 158, 217);}
+    90%{color: rgb(235, 169, 207);}
+}
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+ 
+    font-size: 20px;
+}
+  
+.unl:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+footer table{
+    margin-top: 50px;
+   margin-left: 200px;
+}
+.ht{
+    animation-name: cha;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.ul{
+    margin-left: 100px;
+}
+.bbg{
+   min-height: 100vh;
+    display: flex;
+    border: solid 2px rgb(148, 148, 207);
+    background-color: rgb(148, 148, 207);
+   
+    
+    justify-content: center;
+    padding: 20px;
+   
+    
+}
+.contain{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0.1);
+}
+.contain header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+
+}
+.contain .form{
+    margin-top: 30px;
+}
+.ind{
+    margin-top: 20px;
+}
+.ind label{
+    color: #333;
+}
+.ind input , select{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border:#ddd 1px solid;
+    border-radius: 6px;
+   margin-top: 8px;
+   font-size: 1rch;
+   color: #707070;
+   padding: 0 15px;
+}
+.form .column{
+    display: flex;
+    column-gap: 10px;
+}
+.gender{
+    margin-top: 10px;
+}
+.he{
+    margin-top: 15px;
+}
+ button{
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 80px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(148, 148, 207);
+    animation-name: ccc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    
+ }
+ @keyframes ccc{
+    0%{color: white;}
+    50%{color: black;}
+    100%{color: darkgoldenrod;}
+   
+}

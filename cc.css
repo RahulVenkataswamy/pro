@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#one,
+#div1 {
+    margin-left: 100px;
+
+
+}
+
+#two {
+    padding-left: 20px;
+
+
+}
+
+#three {
+    padding-left: 900px;
+
+}
+
+.for {
+    padding-left: 30px;
+}
+
+#one1 {
+    margin-left: 70px;
+
+}
+#one1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}  
+
+
+
+#div1 {
+
+    padding-top: 50px;
+
+}
+
+.div2 {
+    margin-left: 100px;
+
+}
+
+.div2:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+#div22 {
+    margin-left: 70px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+
+#div22:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+#fu1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid  rgb(24, 87, 116);
+    background-color: rgb(24, 87, 116);
+    
+
+}
+
+span {
+    margin-top: 20px;
+    border: 2px black solid;
+    border-radius: 4px;
+    background-color: antiquewhite;
+
+}
+
+span:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+p {
+    margin-top: 20px;
+
+
+
+}
+
+.hhh {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(24, 87, 116);
+    background-color:  rgb(24, 87, 116);
+    padding: 10px;
+    
+}
+h1:hover{
+    color: darkgoldenrod;
+}
